@@ -1,6 +1,6 @@
 [[env_vars]]
 key = "BUCKET_AND_PREFIX"
-value = "backups/scheduled"
+value = "backups"
 
 [commands]
 create_backup = 'echo "$BACKUP_NAME"'
