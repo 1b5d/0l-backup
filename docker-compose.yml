@@ -2,6 +2,7 @@ version: '3'
 
 services:
   minio:
+    container_name: 0l-backup
     image: 'bitnami/minio:latest'
     volumes:
       - './data:/data'
